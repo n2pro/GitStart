@@ -11,5 +11,10 @@ namespace GitStart
         static void Main(string[] args)
         {
         }
+
+        public void Log( string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }
