@@ -11,22 +11,5 @@ namespace GitStart
         static void Main(string[] args)
         {
         }
-
-
-        public void Log( string message)
-        {
-            Console.WriteLine(message);
-        }
-        
-
-
-        private int Sum (int a, int b)
-        {
-            return a + b;
-        }
-        private int Dif (int a, int b)
-        {
-            return a - b;
-        }
     }
 }
